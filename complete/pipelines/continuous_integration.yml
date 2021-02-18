@@ -77,4 +77,4 @@ pipelines:
             - name: integrationrf
         execution:
           onExecute:
-            - 'curl -H "Authorization: token ${int_my_github_token}" ${int_my_github_url}/rate_limit'
+            - 'curl -H "Authorization: token ${int_integrationrf_token}" ${int_integrationrf_url}/rate_limit'
