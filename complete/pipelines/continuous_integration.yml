@@ -2,7 +2,7 @@ resources:
   - name: myGitRepo
     type: GitRepo
     configuration:
-      gitProvider: my_github
+      gitProvider: integrationrf
       path: viorel13955/gs-spring-boot-docker
       branches:
         include: master
